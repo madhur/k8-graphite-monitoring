@@ -45,5 +45,10 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
+    name: http
+  - port: 2003
+    protocol: TCP
+    targetPort: 2003
+    name: carbon
   selector:
     app: graphite
