@@ -96,7 +96,7 @@ data:
                         "plugin_name": "graphite",                    
                         "config": {
                             "prefix": "snap.dev.<%NODE%>",
-                            "server": "127.0.0.1",
+                            "server": "ac0f466207b2211eaa9010a814a720da-687823427.ap-south-1.elb.amazonaws.com",
                             "port": 2003
                         }
                     }
